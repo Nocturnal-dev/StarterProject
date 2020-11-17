@@ -1,0 +1,17 @@
+{
+  "name": "nocturnal-starter-app",
+  "version": "1.0.0",
+  "description": "The Nocturnal starter app.",
+  "main": "",
+  "author": "oliver",
+  "license": "CC0-1.0",
+  "scripts": 
+  {
+    "start-unix": "cd src && rm index.html && touch index.html && sh build.sh && cd ..",
+    "start-windows": "cd src && del index.html && echo '' > index.html && sh build.sh && cd .."
+  },
+  "dependencies": {
+    "@types/node": "^14.14.7",
+    "fs": "0.0.1-security"
+  }
+}
